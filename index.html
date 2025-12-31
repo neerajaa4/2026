@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To My Babbu | New Year 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Envelope -->
+    <div class="envelope-container">
+        <div class="envelope" id="envelope">
+            <div class="envelope-front">
+                <div class="to-label">To Babbu</div>
+                <div class="wax-seal" id="waxSeal">
+                    <div class="seal-heart">❤️</div>
+                    <div class="seal-text">B & B</div>
+                </div>
+            </div>
+            <div class="envelope-back"></div>
+            <div class="letter" id="letter">
+                <!-- Letter content will be inserted by JavaScript -->
+            </div>
+        </div>
+        <div class="instruction">Click the envelope to open</div>
+    </div>
+
+    <!-- Hidden Message Popup -->
+    <div class="hidden-message" id="hiddenMessage">
+        <div class="message-box">
+            <h3>💝 Happy New Year Love 💝</h3>
+            <p>This is just the beginning of our forever...</p>
+            <button onclick="closeMessage()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
